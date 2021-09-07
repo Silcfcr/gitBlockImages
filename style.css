@@ -1,0 +1,42 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 10px solid gray;
+    padding: 1em;
+}
+
+img {
+    height: 200px;
+    width: 250px;
+    
+}
+
+.row-1, .row-2, .row-3 {
+    width: 900px;
+    padding: 15px;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row-1 {
+    background-color: rgb(64,204,225);
+}
+
+.row-2 {
+    background-color: rgb(213, 152,183)
+}
+
+.row-3 {
+    background-color: rgb(223, 252,223)
+}
